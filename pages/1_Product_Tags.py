@@ -40,4 +40,4 @@ if product_type:
     product_attributes = dct[product_type]
     for k, values in product_attributes.items():
         values = tuple(values)
-        attribute = st.multiselect(f'Choose {k} (multi select)', values)
+        attribute = st.multiselect(f'Choose {k} (multiselect)', values)
