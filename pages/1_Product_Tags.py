@@ -14,7 +14,7 @@ dct = {
         'colours': ['red', 'blue', 'green'],
         'number_of_seats': ['1 seat', '2 seater', '3 seater'],
         'main_material': ['leather', 'fabric', 'velvet', 'wood'],
-        'back_style': ['1 seat', '2 seater', '3 seater']
+        'back_style': ['scatter back', 'button back']
     },
     'table': {
         'wood_type': ['oak', 'pine', 'teak'],
