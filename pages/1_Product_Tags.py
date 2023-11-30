@@ -28,6 +28,7 @@ dct = {
 product_type = st.selectbox('Select a product type', ('sofa', 'table', 'tv console'))
 
 if product_type:
+    st.write(product_type)
     product_attributes = dct[product_type]
     for k, values in product_attributes.items():
         values = tuple(values)
