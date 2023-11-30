@@ -25,10 +25,10 @@ dct = {
 }
 
 
-product_type = st.multiselect('Select a product type', ('sofa', 'table', 'tv console'))
+product_type = st.selectbox('Select a product type', ('sofa', 'table', 'tv console'))
 
 if product_type:
     product_attributes = dct[product_type]
     for k, values in product_attributes.items():
         values = tuple(values)
-        attribute = st.selectbox(f'Choose a {k}', values)
+        attribute = st.multiselect(f'Choose a {k}', values)
